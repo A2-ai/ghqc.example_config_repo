@@ -1,0 +1,21 @@
+# The first line is the checklist title that will appear in the ghqc assign app
+Report:
+  # Subsequent lines with keys are headers
+  Table of Contents:
+    - depth of 2 # Checklist items within the header begin with hyphens and proper indentation
+
+  Body:
+    - Page numbers exist on each page
+    - Page numbers indicate total page length (e.g. Page 1 of 3)
+
+  Tables and Figures:
+    - Titles are correct
+    - Captions are descriptive
+    - Footnotes are accurate
+
+  Appendix:
+    - | # Use the pipe if you'd like a checklist item to span multiple lines
+      Sources are given in one of the following formats:
+        1) APA
+        2) MLA
+        3) Chicago
