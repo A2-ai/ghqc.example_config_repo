@@ -1,4 +1,4 @@
-# ghqc.example_info_repo
+# ghqc.example_config_repo
 An example information repository for ghqc that stores an organization's QC checklists, logo, and pre-checklist contextualizing.
 
 ## Repo
