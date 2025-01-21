@@ -1,5 +1,5 @@
 # ghqc.example_config_repo
-An example information repository for ghqc that stores an organization's QC checklists, logo, and pre-checklist contextualizing.
+An example information repository for ghqc that stores an organization's QC checklists, logo, and options.
 
 ## Repo
 The Information Repository created by an organization to load organization-specific attributes to ghqc apps can be named anything. The convention is to name in ghqc.org, where org is the organization name.
