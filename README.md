@@ -47,12 +47,31 @@ Path to download the configuration information repository (~/.local/share/ghqc/g
 
 ### Repo Structure
 
+The the config repo must have a folder named "checklists" in the root.
+The logo.png and options.yaml are optional.
+
+If the logo.png or options.yaml are included, they must have those names exactly to be recognized by ghqc.
+
 ## Checklists
 
-### Checklist Structure
+Checklists should be located in the checklists folder.
+All checklists are yaml files with one of the following structures:
 
-## Note
+Simple:
+```
+"Checklist name":
+- item 1
+- item 2
+- item 3
+```
+The simple structure:
+- begins with the name of the checklist to be displayed in `ghqc_assign_app()`
+- each item is prepended with a tick mark.
+- Note: to include a colon in a checklist item, wrap the item in quotes.
+- Note: to span a checklist item across multiple lines, begin the first line with the pipe operator.
 
 ## Logo
+
+## Options
 
 
