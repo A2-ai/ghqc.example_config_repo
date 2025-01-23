@@ -43,7 +43,7 @@ Path to download the configuration information repository (~/.local/share/ghqc/g
 ✔ simple_checklist.yaml
 ```
 
-### Repo Structure
+## Repo Structure
 
 The the config repo must have a folder named "checklists" in the root.
 The logo.png and options.yaml are optional.
