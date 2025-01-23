@@ -141,7 +141,7 @@ If included, it should be named options.yaml to be recognized by the package.\
 The function of this file is to supply various user-options to ghqc operations.
 
 ### Recognized inputs
-`prepended_checklist_note`
+#### `prepended_checklist_note`
 
 This option is optionally included.\
 The function of this option is to prepend checklists rendered to GitHub with a note for users (either the author or QCer). For example, the note may prompt the script author to modify checklist items to make them more specific to the given script.\
@@ -159,7 +159,7 @@ Output rendered in GitHub Issue:
 <img width="450" alt="Screenshot 2025-01-23 at 4 47 46 PM" src="https://github.com/user-attachments/assets/f8daa174-b1fd-4d07-bd43-203d95b6408f" />
 
 
-`checklist_display_name_var`
+#### `checklist_display_name_var`
 
 This option is optionally included.\
 The function of this option is to change the display name of the word "checklist" in `ghqc_assign_app()`.\
