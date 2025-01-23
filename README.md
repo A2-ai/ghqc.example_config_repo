@@ -105,13 +105,13 @@ The header structure:
 - the value of each header key is a list of checklist items to appear under the header
 - each checklist item is prepended with a tick mark on a new line
 
-Extra considerations:
-- Note: to include a colon in a checklist item, wrap it in quotation marks.\
+### Extra considerations
+- To include a colon in a checklist item, wrap it in quotation marks.\
   Example:
     ```
     - "the code is: readable, scalable, and documented"
     ```
-- Note: to span a checklist item across multiple lines, begin the first line with the pipe operator, then start the checklist item contents on the next line.\
+- To span a checklist item across multiple lines, begin the first line with the pipe operator, then start the checklist item contents on the next line.\
   Example:
   ```
   - |
