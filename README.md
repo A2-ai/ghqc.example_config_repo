@@ -171,7 +171,7 @@ The key is `checklist_display_name_var`, and the value is the name to display in
 
 Example:
 ```
-checklist_display_name_var: "QC Assessment list"
+checklist_display_name_var: "QC Assessment List"
 ```
 Output rendered in `ghqc_assign_app()`:
 
