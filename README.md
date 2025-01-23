@@ -33,9 +33,7 @@ Path to download the configuration information repository (~/.local/share/ghqc/g
 
 ✔ 'note' successfully found
 
-    “Checklist items should be editted by the author on GitHub after checklist generation by the app to
-    include specific details about each selected qc file.The author should also add or subtract generated
-    checklist items on a case-per-case basis.”
+    "Note: Please modify checklist items to insert relevant QC context."
     — 
 
 ✔ Checklists directory successfully found
