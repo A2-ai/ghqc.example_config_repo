@@ -101,7 +101,7 @@ Output rendered in GitHub Issue:
 
 The header structure:
 - begins with the name of the checklist to be displayed in `ghqc_assign_app()` as the key
-- the value is a set of headers are given as keys themselves
+- the value is a set of headers, which are keys themselves
 - the value of each header key is a list of checklist items to appear under the header
 - each checklist item is prepended with a tick mark on a new line
 
