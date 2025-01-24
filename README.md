@@ -176,5 +176,23 @@ Output rendered in `ghqc_assign_app()`:
 <img width="589" alt="Screenshot 2025-01-23 at 4 58 58 PM" src="https://github.com/user-attachments/assets/dd769de0-e2f4-443e-8437-e7189d17a65f" />
 
 
+## Repository and checklist validation in ghqc
+
+ghqc will validate the structure of the repository and checklists when cloned via `setup_ghqc()`.
+
+If the repository isn't formatted according to ghqc convention (the only requirement is the checklists directory):
+
+<img width="690" alt="Screenshot 2025-01-24 at 9 39 08 AM" src="https://github.com/user-attachments/assets/58eeb815-e0ec-47ca-86f0-ff749d10e772" />
+
+If this directory isn't present, an error will occur when running `ghqc_assign_app()`:
+
+<img width="699" alt="Screenshot 2025-01-24 at 9 40 16 AM" src="https://github.com/user-attachments/assets/b06c2b50-eea9-447b-b388-d19fec211daf" />
+
+
+
+If checklists aren't formatted according to ghqc convention:
+
+<img width="763" alt="Screenshot 2025-01-24 at 9 32 21 AM" src="https://github.com/user-attachments/assets/40045027-f2ef-47f5-8847-485829785f21" />
+
 
 
