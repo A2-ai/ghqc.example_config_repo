@@ -1,13 +1,17 @@
 # ghqc.example_config_repo
-An example information repository for ghqc that stores an organization's QC checklists, logo, and options.
+An example configuration repository for ghqc that stores an organization's QC checklists, logo, and options.
 
 ## Repo
-The Information Repository created by an organization to load organization-specific attributes to ghqc apps can be named anything. The convention is to name in ghqc.org, where org is the organization name.
+The configuration repository created by an organization to load organization-specific attributes to ghqc apps can be named anything. The convention is to name in ghqc.org, where org is the organization name.
 
 The https web URL is set as the GHQC_CONFIG_REPO environment variable for ghqc.
 To configure ghqc to use this info repo, add the line to your .Renviron:
 ```
 GHQC_CONFIG_REPO=https://github.com/A2-ai/ghqc.example_info_repo.git
+```
+To check how ghqc parses the repository, run:
+```
+ghqc::check_ghqc_configuration()
 ```
 Alternatively, input the https web URL when running `ghqc::setup_ghqc()`:
 
