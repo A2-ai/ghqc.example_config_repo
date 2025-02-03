@@ -40,7 +40,7 @@ Path to download the configuration information repository (~/.local/share/ghqc/g
     "Note: Please modify checklist items to insert relevant QC context."
     — 
 
-✔ Checklists directory successfully found
+✔ Checklist directory successfully found
 
 ── Checklist directory content 
 ✔ advanced_checklist.yaml
