@@ -93,7 +93,7 @@ Report:
     - Footnotes are accurate
 
   Appendix:
-    - |
+    - |-
       Sources are given in one of the following formats:
         1) APA
         2) MLA
@@ -118,7 +118,7 @@ The header structure:
 - To span a checklist item across multiple lines, begin the first line with the pipe operator, then start the checklist item contents on the next line.\
   Example:
   ```
-  - |
+  - |-
       Sources are given in one of the following formats:
         1) APA
         2) MLA
