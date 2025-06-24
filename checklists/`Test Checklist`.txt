@@ -1,8 +1,0 @@
-## Include links to:
-- the dataset
-- the spec file
-
-## General checks
-- [ ] good documentation
-- [ ] only relative paths to sourced files
-- [ ] consistent style and naming conventions

@@ -1,0 +1,36 @@
+## 1. General
+
+- [ ] Code style and clarity
+  - [ ] Consistent formatting and naming
+  - [ ] No unused code or comments
+- [ ] Structure
+  - [ ] Files logically organized
+  - [ ] Function length is reasonable
+
+## 2. Functionality
+
+### Behavior
+  - [ ] Runs without errors or warnings
+  - [ ] Handles edge cases
+### Input/output
+  - [ ] Validates inputs
+  - [ ] Outputs are documented and tested
+
+## 3. Testing
+
+- [ ] Coverage
+  - [ ] Core logic is tested
+  - [ ] Failure modes tested
+- [ ] Quality
+  - [ ] Tests are readable and minimal
+  - [ ] CI passes
+
+```python
+# Python example test
+def test_addition():
+    assert add(2, 3) == 5
+```
+
+---
+
+> 💡 **Tip**: Run `styler`, `lintr`, or other linters before submitting.
