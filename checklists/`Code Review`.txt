@@ -2,7 +2,7 @@
 
 - [ ] Code style and clarity
   - [ ] Consistent formatting and naming
-  - [ ] No unused code or comments
+  - [ ] **No unused code or comments**
 - [ ] Structure
   - [ ] Files logically organized
   - [ ] Function length is reasonable
@@ -14,7 +14,7 @@
   - [ ] Handles edge cases
 ### Input/output
   - [ ] Validates inputs
-  - [ ] Outputs are documented and tested
+  - [ ] _Outputs are documented and tested_
 
 ## 3. Testing
 
@@ -34,3 +34,11 @@ def test_addition():
 ---
 
 > 💡 **Tip**: Run `styler`, `lintr`, or other linters before submitting.
+
+<details><summary>Website</summary>
+<p>
+
+https://a2-ai-tech-training.github.io/ghqc-docs/
+
+</p>
+</details> 
