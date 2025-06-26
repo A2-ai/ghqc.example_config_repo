@@ -1,44 +1,46 @@
-## 1. General
-
-- [ ] Code style and clarity
-  - [ ] Consistent formatting and naming
-  - [ ] **No unused code or comments**
-- [ ] Structure
-  - [ ] Files logically organized
-  - [ ] Function length is reasonable
-
-## 2. Functionality
+## Functionality
 
 ### Behavior
+
   - [ ] Runs without errors or warnings
   - [ ] Handles edge cases
-### Input/output
-  - [ ] Validates inputs
-  - [ ] _Outputs are documented and tested_
 
-## 3. Testing
+### Input/output
+
+  - [ ] Validates inputs
+  - [ ] Outputs are documented and tested
+
+## Testing
+_Confirm for integrated and unit tests_
 
 - [ ] Coverage
-  - [ ] Core logic is tested
-  - [ ] Failure modes tested
+  - [ ] 0, 1, and n cases are tested
+  - [ ] **Failure modes tested**
 - [ ] Quality
   - [ ] Tests are readable and minimal
   - [ ] CI passes
 
-```python
-# Python example test
-def test_addition():
-    assert add(2, 3) == 5
+```r
+# R example test
+library(testthat)
+
+test_that("addition works", {
+  expect_equal(add(2, 3), 5)
+})
 ```
 
 ---
 
-> 💡 **Tip**: Run `styler`, `lintr`, or other linters before submitting.
+### Notes for QCer
 
-<details><summary>Website</summary>
+[INSERT]
+
+> **Tip**: Run `styler`, `lintr`, or other linters before submitting.
+
+<details><summary>Style guide</summary>
 <p>
 
-https://a2-ai-tech-training.github.io/ghqc-docs/
+Reference this document for style guide: https://google.github.io/styleguide/
 
 </p>
 </details> 
