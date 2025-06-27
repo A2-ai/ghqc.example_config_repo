@@ -6,17 +6,17 @@ The configuration repository created by an organization to load organization-spe
 
 The https web URL is set as the GHQC_CONFIG_REPO environment variable for ghqc.
 To configure ghqc to use this info repo, add the line to your .Renviron:
-```
+```r
 GHQC_CONFIG_REPO=https://github.com/A2-ai/ghqc.example_info_repo.git
 ```
 To check how ghqc parses the repository, run:
-```
+```r
 ghqc::check_ghqc_configuration()
 ```
-Alternatively, input the https web URL when running `ghqc::setup_ghqc()`:
+Alternatively, input the https web URL when running `ghqc::ghqc_setup()`:
 
-```
-> ghqc::setup_ghqc()
+```r
+> ghqc::ghqc_setup()
 
 ── GHQC RENVIRON SETUP ───────────────────────────────────────────────────────────────────────────────────────────────
 
@@ -62,7 +62,7 @@ All checklists are yaml files with one of the following structures:
 ### Simple structure
 
 yaml contents:
-```
+```yaml
 General Script:
   - good documentation
   - only relative paths to sourced files
@@ -78,7 +78,7 @@ The simple structure:
 
 ### Header structure
 yaml contents:
-```
+```yaml
 Report:
   Table of Contents:
     - depth of 2
@@ -112,12 +112,12 @@ The header structure:
 ### Extra considerations
 - To include a colon in a checklist item, wrap it in quotation marks.\
   Example:
-    ```
+    ```yaml
     - "the code is: readable, scalable, and documented"
     ```
 - To span a checklist item across multiple lines, begin the first line with the pipe operator, then start the checklist item contents on the next line.\
   Example:
-  ```
+  ```yaml
   - |-
       Sources are given in one of the following formats:
         1) APA
@@ -155,7 +155,7 @@ If not included, no note will appear before generated checklists.
 The key is `prepended_checklist_note`, and the value is the contents of the note.
 
 Example:
-```
+```yaml
 prepended_checklist_note: "Note: Please modify checklist items to insert relevant QC context."
 ```
 Output rendered in GitHub Issue:
@@ -172,7 +172,7 @@ If not included, the word "checklist" will be displayed by default.
 The key is `checklist_display_name_var`, and the value is the name to display in place of the word "checklist".
 
 Example:
-```
+```yaml
 checklist_display_name_var: "QC Assessment List"
 ```
 Output rendered in `ghqc_assign_app()`:
